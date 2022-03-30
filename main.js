@@ -36,8 +36,8 @@ links.forEach((link) => {
   });
 });
 
-subLinks.forEach((sl) => {
-  sl.addEventListener("click", function () {
+subLinks.forEach((sublink) => {
+  sublink.addEventListener("click", function () {
     reset();
     show();
   });
